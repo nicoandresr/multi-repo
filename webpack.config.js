@@ -9,7 +9,7 @@ module.exports = {
   resolve: { extensions: ['.js', '.jsx'] },
   module: {
     rules: [
-      { test: /\.js?$/, exclude: /node_modules/, loader: 'babel-loader' },
+      { test: /\.jsx?$/, exclude: /node_modules/, loader: 'babel-loader' },
       { test: /\.scss$/, loaders: ["style-loader", cssLoader, "sass-loader"] }
     ]
   }
