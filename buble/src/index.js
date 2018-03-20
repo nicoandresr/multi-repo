@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 
-render(<div>react + webpack + buble</div>, document.getElementById('root'));
+render(<div>webpack + buble + react</div>, document.getElementById('root'));
 

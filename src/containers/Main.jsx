@@ -6,7 +6,7 @@ class Main extends Component {
     return (
       <div className={styles.mainWrapper}>
         <div className={styles.content}>
-          Hola mundo
+          webpack + babel + react
         </div>
         <a href="buble">buble</a>
       </div>
