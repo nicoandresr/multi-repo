@@ -8,6 +8,7 @@ class Main extends Component {
         <div className={styles.content}>
           Hola mundo
         </div>
+        <a href="buble">buble</a>
       </div>
     );
   }
