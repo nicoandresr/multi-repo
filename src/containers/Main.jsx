@@ -9,11 +9,12 @@ class Main extends Component {
       <div className={styles.mainWrapper}>
         <div className={styles.content}>
           webpack + babel + react
-          <span>{aspectRatio.getFullWidth()}</span>
-          <span>{aspectRatio.getFullHeight()}</span>
-          <span>{window.innerHeight}</span>
-          <span>{window.innerWidth}</span>
-          <span>{navigator.userAgent}</span>
+          <div>{aspectRatio.getFullWidth()}</div>
+          <div>{aspectRatio.getFullHeight()}</div>
+          <div>{window.innerHeight}</div>
+          <div>{window.innerWidth}</div>
+          <div>{navigator.userAgent}</div>
+          <div>{window.orientation}</div>
         </div>
         <a href="buble">buble</a>
       </div>
