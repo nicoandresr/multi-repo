@@ -3388,6 +3388,10 @@ isurl@^1.0.0-alpha5:
     has-to-string-tag-x "^1.2.0"
     is-object "^1.0.1"
 
+js-aspect-ratio@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/js-aspect-ratio/-/js-aspect-ratio-1.0.2.tgz#a35ebf4e9435febed771551d32697656bf760578"
+
 js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.4.3.tgz#2e545ec2b0f2957f41356510205214e98fad6582"
