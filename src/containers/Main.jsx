@@ -14,7 +14,7 @@ class Main extends Component {
           <div>{window.innerHeight}</div>
           <div>{window.innerWidth}</div>
           <div>{navigator.userAgent}</div>
-          <div>{window.orientation}</div>
+          <div>{typeof window.orientation !== 'undefined' ? 'mobile' : 'desktop'}</div>
         </div>
         <a href="buble">buble</a>
       </div>
