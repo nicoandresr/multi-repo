@@ -15,7 +15,7 @@ class Main extends Component {
           <div>{window.innerWidth}</div>
           <div>{navigator.userAgent}</div>
           <div>{typeof window.orientation !== 'undefined' ? 'mobile' : 'desktop'}</div>
-          <div>{navigator.userAgent.match(/iphone|android/) ? 'mobile' : 'desktop'}</div>
+          <div>{navigator.userAgent.match(/iphone|android/gi) ? 'mobile' : 'desktop'}</div>
         </div>
         <a href="buble">buble</a>
       </div>
