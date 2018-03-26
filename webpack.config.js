@@ -4,8 +4,6 @@ var cssLoader = {
 };
 
 module.exports = {
-  entry: './src/index.js',
-  output: { filename: 'bundle.js' },
   resolve: { extensions: ['.js', '.jsx'] },
   module: {
     rules: [
