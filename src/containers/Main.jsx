@@ -7,7 +7,7 @@ class Main extends Component {
     return (
       <div className={styles.mainWrapper}>
         <div className={styles.content}>
-          webpack + babel + react
+          webpack + babel + preact
         </div>
         <a href="buble">buble</a>
       </div>

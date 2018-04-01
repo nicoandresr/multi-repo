@@ -4,7 +4,13 @@ var cssLoader = {
 };
 
 module.exports = {
-  resolve: { extensions: ['.js', '.jsx'] },
+  resolve: {
+    extensions: ['.js', '.jsx'],
+    alias : {
+      'react': 'preact-compat',
+      'react-dom': 'preact-compat'
+    }
+  },
   module: {
     rules: [
       { test: /\.jsx?$/, exclude: /node_modules/, loader: 'babel-loader' },
