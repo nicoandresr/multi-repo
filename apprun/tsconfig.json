@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "jsx": "React",
+    "reactNamespace": "app",
+    "lib": ["DOM", "ES2015", "ES5"],
+    "experimentalDecorators": true,
+    "sourceMap": true
+  }
+}
