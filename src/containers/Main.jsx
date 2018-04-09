@@ -9,6 +9,7 @@ class Main extends Component {
           webpack + babel + preact
         </div>
         <a href="buble">buble</a>
+        <a href="apprun/dist">apprun test</a>
       </div>
     );
   }
